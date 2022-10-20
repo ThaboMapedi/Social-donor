@@ -1,0 +1,557 @@
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* width: 100px; */
+    display: flex;
+    /* margin-left: 500px; */
+    
+    
+    
+    }
+    
+    html {
+        overflow-y: scroll;
+        }
+    
+    
+    li{
+       /* float: left; */
+       display: flex;
+       margin: 0 50px;
+       
+     
+    
+    
+    }
+    
+    
+    li a{
+        display: flex;
+        color: white;
+        padding: 16px 8px;
+        text-decoration: 0;
+        background-color: none;
+        /* width: 200px; */
+        /* margin-left: -90px; */
+        /* padding-top: 50px */
+    
+    
+    
+    }
+    
+    li a:hover{
+        /* background-color: grey; */
+        color: brown;
+        
+    }
+    
+    
+    *{
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    
+    
+    .wrapper .sidebar{
+        background: red;
+        position:absolute;
+        top: 0;
+        left: -50px;
+        width: 400px;
+        height: 600px;
+        padding: 20px 0;
+        transition: all 0.5s ease;
+        margin-top: 250px;
+        border-radius: 10%;
+
+    }
+         
+    .bar{
+        color: red;
+        margin-top: -90px;
+        margin-left: -40px;
+        border: none;
+        
+    } 
+
+       .mark{
+       border-radius: 50%;
+       margin-left: 60px;
+       }
+
+       .hector{
+       margin-left: 170px;
+       margin-top: -50px;
+
+       }
+
+       .noti{
+       margin-top: -70px;
+       margin-left: 120px;
+
+
+       }
+
+       .list{
+        margin-left: 50px;
+        margin-top: 50px;
+        color: white;
+        padding-top: 50px;
+
+
+       }
+
+       .alert{
+       margin-left: 600px;
+       margin-top: 300px;
+
+
+       }
+
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            padding-top: 200px;
+          }
+
+
+        .container{
+        padding-bottom: -20px;
+        padding-left: 745px;
+        }
+
+        #container-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 80%;
+            padding: 20px;
+            margin-top: 50px;
+          
+          }
+          #infor-user{
+            justify-content: space-between;
+          display: flex;
+          flex-wrap: wrap;
+          
+          }
+          #infor-user .input-box{
+          width: calc(100% / 2 - 20px);
+          margin: 20px 0 20px 0;
+          }
+          #infor-user .input-box input{
+            width: 100%;
+            height: 45px;
+            border: 3px solid rgb(208, 0, 0);
+            border-radius: 4px;
+            outline: rgb(65, 48, 48);
+          }
+          #gender-details.title{
+             font-size: 20px;
+             font-weight: bold;
+             color: #D60005;
+          }
+          
+          #gender-details .category{
+            display: flex;
+            justify-content: space-between;
+            width: 20%;
+            margin: 10px 0;
+          }
+          #gender-details .category .gender{
+          color: #D60505;
+          font-size: 20px;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+          .one-1{
+            width: 50px;
+            height: 50px;
+            background: red;
+          }
+          ::placeholder{
+            padding-left: 20px;
+          }
+          
+          label{
+            font-weight: bold;
+            font-size: 20px;
+          }
+          #button-1{
+            margin-top: 50px;
+            text-align: center;
+            
+          }
+          #button-1 a{
+            text-decoration: none;
+            color: #D60505;
+            background: #ffffff;
+            padding: 10px 40px;
+            border-radius: 20px;
+            font-size: 30px;
+            border: 5px solid #D60505;
+          }
+
+    
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+  
+    
+    
+    #passcheck{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 35%;
+    
+    }
+
+    
+/*form login*/
+#passcheck{
+  position: absolute;
+  margin-top: 850px;
+  margin-left: 90px;
+  
+  
+  }
+
+  .psw{
+    font-weight: bold;
+    font-size: 30px;
+    
+  }
+  
+  .container{
+  
+    padding: 20px 30px;
+    width: 420px;
+    border-radius: 5px;
+  
+  }
+  
+  form .field input{
+      width: 300px;
+      height: 45px;
+      border: 3px solid rgb(208, 0, 0);
+      border-radius: 4px;
+      outline: rgb(65, 48, 48);
+      margin-left: 55px;
+  }
+  
+  #showBtn{
+      margin-right:30px ;
+      margin-top: -13px;
+  }
+  .field label{
+  position: relative;
+  right: 20px;
+  top: 30px;
+  }
+  form .field #showBtn{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
+    user-select: none;
+  }
+  form #indicator{
+    height: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
+    display: none;
+  }
+  form #indicator span{
+    position: relative;
+    height: 100%;
+    width: 30px;
+    background: lightgrey;
+    border-radius: 5px;
+  }
+  form #indicator span:nth-child(2){
+    margin: 0 3px;
+  }
+  form #indicator span.active:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30px;
+    border-radius: 5px;
+  }
+  #indicator span.weak:before{
+    background-color: #ff4757;
+  }
+  #indicator span.medium:before{
+    background-color: orange;
+  }
+  #indicator span.strong:before{
+    background-color: #23ad5c;
+  }
+  form .text{
+    font-size: 20px;
+    font-weight: 500;
+    display: none;
+    margin-bottom: -10px;
+    margin-left: 58px;
+  }
+  form .text.weak{
+    color: #ff4757;
+  }
+  form .text.medium{
+    color: orange;
+  }
+  form .text.strong{
+    color: #23ad5c;
+  }
+    
+    .logo{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 10px;
+    margin-left: -100px;
+    margin-top: -958px;
+    
+    
+    
+    
+    }
+   
+    
+    .bar{
+    position: absolute;
+    margin-left: 1120px;
+    background-color: white;
+    text-align: center;
+    margin-top: -940px;
+    
+
+
+    }
+
+
+    .box20{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+
+
+    }
+
+
+    .full{
+    margin-left: 690px;
+    margin-top: 80px;
+    width: 500px;
+    
+
+    }
+
+
+    .last{
+    margin-left: 690px;
+    margin-top: 40px;
+
+
+    }
+
+    .male{
+    margin-left: 690px;
+    margin-top: 40px;
+
+    }
+
+    .user{
+    margin-left: 40px;
+    margin-top: -50px;
+
+
+    }
+
+    .pass{
+    margin-left: 40px;
+    margin-top: -40px;
+
+
+    }
+
+
+   
+
+             .donate{
+             font-size: 30px;
+             font-weight: bold;
+             margin-top:  60px;
+             margin-left: 50px;
+             /* position: relative; */
+
+
+
+             }
+
+
+
+
+              .social{
+             font-size: 30px;
+             /* font-weight: bold; */
+             margin-left: 600px;
+             margin-top: -110px;
+             /* position: absolute; */
+
+
+
+
+              }
+
+              .slideb{
+             font-size: 20px;
+             margin-left: 50px;
+             margin-top: 100px;
+             font-weight: thin;
+
+
+
+
+              }
+
+              .social{
+              /* background-color: yellow; */
+              height: 100px;
+              width: 300px;
+              font-size: 30px;
+              font-weight: bold;
+              margin-top: -199px;
+
+
+
+              }
+
+
+              .slidec{
+              font-size: 20px;
+              margin-left: 600px;
+              margin-top: -20px;
+              /* color: grey; */
+
+
+
+              }
+
+
+              footer{
+              background-color: red;
+              height: 300px;
+              margin-top: -20px;
+
+
+              }
+
+              .name{
+              padding-left: 1300px;
+              margin-top: -120px;
+               
+
+              }
+
+              .surname{
+              padding-left: 1300px;
+              margin-top: 30px;
+              
+
+              }
+
+              .mail{
+              padding-left: 1300px;
+              margin-top: 40px;
+
+
+              }
+
+
+              .box79{
+                position: absolute;
+                margin-left: 900px;
+                margin-top: -50px;
+                color: rgb(100, 98, 98);
+                font-size: 20px;
+                
+                
+                
+                
+                }
+
+              
+
+              .box78{
+                position: absolute;
+                margin-left: 1000px;
+                margin-top: -120px;
+                font-weight: bold;
+                font-size: 30px;
+                color: white;
+                
+                
+                }
+             
+
+              .mit{
+              /* padding-left: 1300px;
+              margin-top: 50px; */
+              position: relative;
+              margin-left: 1300px;
+              top:40px;
+              width:168px;
+              background-color: rgb(114, 42, 42);
+              color:white;
+              border: none;
+              
+              }
+
+               
+    .pswd{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    

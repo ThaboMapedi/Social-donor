@@ -1,0 +1,813 @@
+*{
+  padding: 0;
+  margin: 0%;
+}
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* width: 100px; */
+    display: flex;
+    /* margin-left: 500px; */
+    
+    
+    
+    }
+    
+    html {
+        overflow-y: scroll;
+        }
+    
+    
+    li{
+       /* float: left; */
+       display: flex;
+       margin: 0 50px;
+       
+     
+    
+    
+    }
+    
+    
+    li a{
+        display: flex;
+        color: red;
+        padding: 16px 8px;
+        text-decoration: 0;
+        background-color: none;
+        margin-left: -20px;
+        
+        
+    
+    
+    }
+    
+    li a:hover{
+        /* background-color: grey; */
+        color: brown;
+        
+    }
+    
+    *{
+      list-style: none;
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+  }
+    
+    .header{
+    height: 400px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+        
+    .profile-pic {
+      width: 200px;
+      max-height: 200px;
+      display: inline-block;
+  }
+
+  
+  
+  .profile-pic {
+      width: 200px;
+      max-height: 200px;
+      display: inline-block;
+  }
+  
+  .profile-pic-div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+.header1{
+  margin-left: 500px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#uploadBtn{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+} .nav-links a:hover{
+    background-color: #ff000085;
+    width: auto;
+    height: auto;
+ padding: 5px;
+ border-radius: px;
+ border: 4px solid black;
+
+}
+   
+#container-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 80%;
+  padding: 20px;
+  margin-top: 150px;
+
+}
+#infor-user{
+  justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+
+}
+#infor-user .input-box{
+width: calc(100% / 2 - 20px);
+margin: 20px 0 20px 0;
+}
+#infor-user .input-box input{
+  width: 100%;
+  height: 45px;
+  border: 3px solid rgb(208, 0, 0);
+  border-radius: 30px;
+  outline: rgb(65, 48, 48);
+}
+#gender-details.title{
+   font-size: 20px;
+   font-weight: bold;
+   color: #D60005;
+   margin-left: 90px;
+}
+
+#gender-details .category{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: 10px 0;
+}
+#gender-details .category .gender{
+color: #D60505;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.one-1{
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+::placeholder{
+  padding-left: 20px;
+}
+
+label{
+  font-weight: bold;
+  font-size: 20px;
+}
+#button-1{
+  margin-top: 50px;
+  text-align: center;
+  
+}
+
+
+.selector{
+  width: 100%;
+  height: 45px;
+  border: 3px solid rgb(208, 0, 0);
+  border-radius: 30px;
+  outline: rgb(65, 48, 48);
+}
+#gender-details .title{
+ font-size: 20px;
+ font-weight: bold;
+ color: #D60005;
+ position: relative;
+ right: 180px; 
+}
+
+#gender-details .category{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: 10px 0;
+}
+
+#gender-details .category .gender{
+ color: #D60505;
+ font-size: 20px;
+
+}
+
+#radio{
+ position: relative;
+ margin-top: 60px;
+ margin-right: 320px;
+ display: inline-flex;
+ justify-content: space-around;
+ gap: 120px; 
+}
+
+#dot-1{
+position: relative;
+right: -9px;
+
+}
+
+.gender{
+margin-right: 70px;
+font-weight: lighter;
+font-size: 17px;
+
+
+}
+
+.title{
+  position: relative;
+margin-right: 800px;
+margin-top: -60px;
+font-weight: bold;
+}
+
+#dot-2{
+  position: relative;
+  right: -6px;
+}
+
+#dot-3{
+ position: relative;
+ left: -6px;
+}
+
+.one-1{
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+::placeholder{
+  padding-left: 20px;
+}
+
+#button-1{
+  margin-top: -20px;
+  text-align: center;
+}
+
+#button-1 a{
+text-decoration: none;
+color: #D60505;
+background: white;
+padding: 10px 40px;
+border-radius: 20px;
+font-size: 30px;
+border: 5px solid #D60505;
+}
+
+#button-1 a{
+  text-decoration: none;
+  color: #D60505;
+  background: #ffffff;
+  padding: 10px 40px;
+  border-radius: 20px;
+  font-size: 30px;
+  border: 5px solid #D60505;
+}
+
+    nav{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background: #fffcfc;
+        
+    }
+    
+    .icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .face{
+        margin:0 25px;
+        
+    }
+    
+    .logo{
+      position: absolute;
+height: 50px;
+width: 60px;
+left: 10px;
+margin-left: -9px;
+margin-bottom: 30px;
+
+    }
+    
+    
+    
+    
+    .bar{
+    
+    margin-top: 10px;
+
+    }
+
+
+
+    .box1{
+   /* background-color: aqua; */
+   height: 200px;
+   width: 100px;
+   font-size: 50px;
+   font-weight: bold;
+   text-align: center;
+   margin-left: 650px;
+   margin-top: 40px;
+
+    }
+
+
+    .box2{
+    /* background-color: yellow; */
+    height: 100px;
+    width: 200px;
+    float: left;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 80px;
+
+
+
+
+
+    }
+
+
+    .box3{
+    /* background-color: yellowgreen; */
+    height: 20px;
+    width: 20px;
+    float: left;
+    
+
+
+    }
+
+
+    .bar1{
+    float: left;
+    margin-left: 100px;
+    margin-top: 110px;
+
+    }
+
+    .bar2{   
+    margin-left: 600px;
+    margin-top: 110px;
+
+
+
+    }
+
+    .box4{
+    /* background-color: green; */
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 20px;
+    margin-left: -140px;
+
+
+    }
+
+    .box5{
+    /* background-color: red; */
+    height: 100px;
+    width: 100px;
+    float: right;
+    font-size: 20px;
+    margin-right: 770px;
+
+
+    }
+
+
+    .box6{
+    /* background-color: cadetblue; */
+    height: 100px;
+    width: 200px;
+    float: left;
+    font-size: 30px;
+    margin-left: -480px;
+    margin-top: 60px;
+
+
+
+
+    }
+
+    .box7{
+    /* background-color: skyblue; */
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-right: 200px;
+    margin-top: 100px;
+
+
+
+    }
+
+
+    .calender{
+
+    margin-top: 120px;
+    margin-left: 100px;
+    float: left;
+
+
+
+
+    }
+    
+    .box8{
+
+   /* background-color: coral; */
+   height: 100px;
+   width: 170px;
+   font-size: 30px;
+   margin-left: 60px;
+   margin-top: 200px;
+
+    }
+
+
+    .box9{
+    /* background-color: yellow; */
+    height: 50px;
+    width: 50px;
+    margin-left: 260px;
+    margin-top: -150px;
+
+
+
+    }
+
+
+    #wrapper {
+      height: auto;
+      /* width: 1000px; */
+      margin: 0 auto; /*this will centralize the div, horizontal. so that it is nice looking in the middle on different computer screens. */
+      background-color: white;
+      }
+
+
+
+    .blood{
+    margin-top: -90px;
+    margin-left: 370px;
+
+
+    }
+
+    .box10{
+    /* background-color: turquoise; */
+    height: 150px;
+    width: 250px;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 100px;
+
+
+    }
+
+    .box11{
+    /* background-color: violet; */
+    height: 50px;
+    width: 50px;
+    margin-left: 290px;
+    margin-top: -200px;
+
+
+
+    }
+
+    .calender1{
+    margin-top: -150px;
+    margin-left: 370px;
+
+
+
+
+    }
+
+
+    .box12{
+    /* background-color: slateblue; */
+    height: 100px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 30px;
+
+
+
+
+    }
+
+    .box13{
+    /* background-color: yellow; */
+    height: 50px;
+    width: 50px;
+    margin-top: -170px;
+    margin-left: 280px;
+
+
+
+
+    }
+
+
+    .bar3{
+        float: left;
+        margin-left: 370px;
+        margin-top: -100px;
+    
+        }
+
+
+        .box14{
+            /* background-color: blue; */
+            height: 170px;
+            width: 200px;
+            margin-top: 170px;
+            margin-left: 80px;
+            font-size: 30px;
+        
+        
+        
+        
+            }
+
+
+            input, label {
+                margin: 5px 5px;
+              }
+              
+              .form-group {
+                margin-top: -170px;
+                margin-left: 300px;
+                width: 450px;
+              }
+              
+              .form-control {
+                float: left;
+              }
+              
+              #inputStreet {
+                width: 100%;
+              }
+              
+              #inputCity {
+                width: 50%;
+              }
+              
+              #inputState {
+                width: 15%;
+              }
+              
+              #inputZip {
+                width: 28%;
+              }
+              
+              #inputCounty {
+                width: 45%;
+              }
+              
+              #inputCountry {
+                width: 50%;
+              }
+              
+              .box15{
+                
+                
+                margin-top: 200px;
+
+                
+                }
+
+               
+             .donate{
+             font-size: 30px;
+             font-weight: bold;
+             margin-top:  70px;
+             margin-left: 50px;
+
+
+
+             }
+
+
+
+
+              .social{
+             font-size: 30px;
+             font-weight: bold;
+             margin-left: 600px;
+             margin-top: -220px;
+             position: absolute;
+
+
+
+
+              }
+
+              .slideb{
+             font-size: 20px;
+             margin-left: 50px;
+
+
+
+
+              }
+
+              .social{
+              font-size: 30px;
+              font-weight: bold;
+
+
+
+              }
+
+
+              .slidec{
+              font-size: 20px;
+              margin-left: 600px;
+              margin-top: -90px;
+
+
+
+              }
+
+              .box78{
+                position: absolute;
+                margin-left: 1000px;
+                margin-top: -220px;
+                font-weight: bold;
+                font-size: 30px;
+                color: white;
+                
+                
+                }
+
+
+                .box79{
+                  position: absolute;
+                  margin-left: 900px;
+                  margin-top: -100px;
+                  color: rgb(100, 98, 98);
+                  font-size: 20px;
+                  
+                  
+                  
+                  
+                  }
+
+
+                  
+                    
+                    footer{
+                    background-color: red;
+                    height: 300px;
+                    width: 1515px;
+                    margin-top: 50px;
+                    
+                    }
+                    
+                    .box30{
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: white;
+                    padding-top: 20px;
+                    margin-left: 40px;
+                    
+                    
+                    }
+                    
+                    .box31{
+                    font-size: 20px;
+                    padding-top: 100px;
+                    margin-left: 30px;
+                    color: white;
+                    
+                    }
+                    
+                    .box32{
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: white;
+                    margin-top: -200px;
+                    margin-left: 500px;
+                    
+                    }
+                    
+                    .box33{
+                    font-size: 20px;
+                    margin-left: 500px;
+                    margin-top: 100px;
+                    color: white;
+                    
+                    
+                    
+                    }
+                    
+                    .box39{
+                    font-size: 30px;
+                    font-weight: bold;
+                    margin-top: 30px;
+                    
+                    }
+                    
+                    .box78{
+                    position: absolute;
+                    margin-left: 950px;
+                    margin-top: -175px;
+                    font-weight: bold;
+                    font-size: 30px;
+                    color: white;
+                    
+                    
+                    }
+                    
+                    .box79{
+                    position: absolute;
+                    margin-left: 900px;
+                    margin-top: -50px;
+                    color: white;
+                    
+                    
+                    
+                    
+                    }
+                    
+                    .name{
+                    margin-left: 1300px;
+                    margin-top: -180px;
+                    
+                    
+                    }
+                    
+                    .surname{
+                    margin-left: 1300px;
+                    margin-top: 30px;
+                    
+                    
+                    
+                    }
+                    
+                    .mail{
+                    margin-left: 1300px;
+                    margin-top: 40px;
+                    
+                    
+                    }
+                    
+                    
+                    .mit{
+                        /* padding-left: 1300px;
+                        margin-top: 50px; */
+                        position: relative;
+                        margin-left: 1300px;
+                        top:40px;
+                        width:168px;
+                        background-color: rgb(114, 42, 42);
+                        color:white;
+                        border: none;
+                        
+                        }
+
